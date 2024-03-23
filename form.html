@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>LoginSignUp Form</title>
+  </head>
+  <body id="body">
+    <div class="LoginSignUpForm">
+      <form action="" method="post" class="signupForm" id="signupForm">
+        <h1 class="formHeading">Create Account</h1>
+        <div class="inputBox">
+          <div class="element">
+            <span>First Name</span>
+            <input
+              type="text"
+              name="Firstname"
+              id="Firstname"
+              placeholder="Enter your First Name"
+            />
+          </div>
+
+          <div class="element">
+            <span>Last Name</span>
+            <input
+              type="text"
+              name="Lirstname"
+              id="Lirstname"
+              placeholder="Enter your Last Name"
+            />
+          </div>
+
+          <div class="element">
+            <span>Email</span>
+            <input
+              type="email"
+              name="Email"
+              id="Email"
+              placeholder="Enter your Email"
+            />
+          </div>
+
+          <div class="element">
+            <span>Date of Birth</span>
+            <input type="date" name="Date" id="Date" />
+          </div>
+
+          <div class="element">
+            <span>Create Password</span>
+            <input
+              type="password"
+              name="CreatePassword"
+              id="CreatePassword"
+              placeholder="Create your Password"
+            />
+          </div>
+
+          <div class="element">
+            <span>ReEnter Password</span>
+            <input
+              type="password"
+              name="ReEnterPassword"
+              id="ReEnterPassword"
+              placeholder="ReEnter your Password"
+            />
+          </div>
+
+          <div class="btnElement">
+            <span class="submit btn">
+              <input type="submit" name="submit" id="" value="Submit" />
+            </span>
+
+            <span class="reset btn">
+              <input type="reset" name="reset" id="" value="Reset" />
+            </span>
+          </div>
+
+          <div class="checkElement">
+            <span class="checkBox"
+              ><input type="checkbox" name="checkbox" id="" />Alway keep me
+              signup</span
+            >
+          </div>
+
+          <div class="formFooter">
+            <p>I have already account.<span class="link" id="loginLink">Login</span></p>
+          </div>
+        </div>
+      </form>
+
+      <form action="" method="post" class="loginForm" id="loginForm">
+        <h1 class="formHeading">Login your Account</h1>
+
+        <div class="inputBox">
+          
+          <div class="element">
+            <span>Email</span>
+            <input
+              type="email"
+              name="Email"
+              id="Email"
+              placeholder="Enter your Email"
+            />
+          </div>
+
+          <div class="element">
+            <span>Enter Password</span>
+            <input
+              type="password"
+              name="ReEnterPassword"
+              id="ReEnterPassword"
+              placeholder="Enter your Password"
+            />
+          </div>
+
+          <div class="btnElement">
+            <span class="submit btn">
+              <input type="submit" name="submit" id="" value="Login" />
+            </span>
+
+            <span class="reset btn">
+              <input type="reset" name="reset" id="" value="Reset" />
+            </span>
+          </div>
+
+          <div class="checkElement">
+            <span class="checkBox"
+              ><input type="checkbox" name="checkbox" id="" />Alway keep me
+              Login</span
+            >
+          </div>
+
+          <div class="formFooter">
+            <p>I have already account.<span class="link" id="signupLink">SignUp</span></p>
+          </div>
+        </div>
+  </body>
+  <script src="script.js"></script>
+</html>
